@@ -1,8 +1,11 @@
 module.exports = {
     name: 'pyth',
     description: " ",
-    execute(message, args){
-        const user = message.author;
+    execute(message, args, user){
+
+        let resulta, resultb, resultc;
+
+        if (args[0] == 'help') {
         return message.channel.send(`
         Den pythagoræiske læresætning er:
         "I alle retvinklede trekanter er summen af kateternes kvadrat lig hypotenusens kvadrat."
@@ -19,5 +22,29 @@ module.exports = {
             b=sqrt{c^2 - a^2}
 
         Kilde: https://www.regneregler.dk/retvinklet-trekant-pythagoras`);
+        }
+
+    if (args[0] == 'a') {
+        if (!args[0] || !args[1] || !args[2] ) {
+            message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
+       } 
+       resulta = srqt((args[1] * args[1]) - (args[2] * args[2]));
+       message.channel.send(`Result: srqt((args[1] * args[1]) - (args[2] * args[2]) = ${resulta} ${message.author}!`);
     }
+
+    else if (args[0] == 'b') {
+        if (!args[0] || !args[1] || !args[2] ) {
+            message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
+       } 
+
+    }
+
+    else if (args[0] == 'c') {
+        if (!args[0] || !args[1] || !args[2] ) {
+            message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
+       } 
+
+    }
+
+}
 }

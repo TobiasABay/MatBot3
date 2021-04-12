@@ -85,7 +85,7 @@ client.on('message', message => {
     }
 
     else if (command === 'pyth') {
-        client.commands.get('pyth').execute(message, args);
+        client.commands.get('pyth').execute(message, args. user);
     }
 
     else if (command === 'areal') {
@@ -96,5 +96,5 @@ client.on('message', message => {
 
 
 //G:\Visual Studio Code\Programmer\DiscordBot>node
-client.login('NjU0MjY0OTczMTk5MDE1OTQ3.XfDBvQ.gA2usZMqsn2PXHnJGqMrrmY-JnQ'); //Bottos hemmelige token, som gør man kan snakke sammen med Discord API
+client.login('NjU0MjY0OTczMTk5MDE1OTQ3.XfDBvQ._DZoxmy6HQ2i6XugAon7KNriANc'); //Bottos hemmelige token, som gør man kan snakke sammen med Discord API
 
