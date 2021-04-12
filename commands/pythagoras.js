@@ -23,28 +23,28 @@ module.exports = {
 
         Kilde: https://www.regneregler.dk/retvinklet-trekant-pythagoras`);
         }
+        /*
+        if (args[0] == 'a') {
+            if (!args[0] || !args[1] || !args[2] ) {
+                message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
+        } 
+        resulta = srqt((args[1] * args[1]) - (args[2] * args[2]));
+        message.channel.send(`Result: srqt((args[1] * args[1]) - (args[2] * args[2]) = ${resulta} ${message.author}!`);
+        }
 
-    if (args[0] == 'a') {
-        if (!args[0] || !args[1] || !args[2] ) {
-            message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
-       } 
-       resulta = srqt((args[1] * args[1]) - (args[2] * args[2]));
-       message.channel.send(`Result: srqt((args[1] * args[1]) - (args[2] * args[2]) = ${resulta} ${message.author}!`);
+        else if (args[0] == 'b') {
+            if (!args[0] || !args[1] || !args[2] ) {
+                message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
+        } 
+
+        }
+
+        else if (args[0] == 'c') {
+            if (!args[0] || !args[1] || !args[2] ) {
+                message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
+        } 
+
+        }
+        */
     }
-
-    else if (args[0] == 'b') {
-        if (!args[0] || !args[1] || !args[2] ) {
-            message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
-       } 
-
-    }
-
-    else if (args[0] == 'c') {
-        if (!args[0] || !args[1] || !args[2] ) {
-            message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
-       } 
-
-    }
-
-}
 }
