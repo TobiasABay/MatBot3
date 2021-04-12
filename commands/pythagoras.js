@@ -21,8 +21,6 @@ module.exports = {
             b=sqrt{c^2 - a^2}
         
             Kilde: https://www.regneregler.dk/retvinklet-trekant-pythagoras`);
-
-            return message.channel.send(`ewrewrewrewrew`);
             }
             
         
@@ -54,4 +52,4 @@ module.exports = {
             message.channel.send(`Result: srqt((${args[1]} * ${args[1]}) - (${args[2]} * ${args[2]}) = ${ result_floor} ${message.author}!`);
         }        
     }
-};
+}
