@@ -84,12 +84,12 @@ client.on('message', message => {
         client.commands.get('calc').execute(message, args);
     }
 
-    else if (command === 'pyth') {
-        client.commands.get('pyth').execute(message, args. user);
-    }
-
     else if (command === 'areal') {
         client.commands.get('areal').execute(message, args, user);
+    }
+
+    else if (command === 'pyth') {
+        client.commands.get('pyth').execute(message, args, user);
     }
     
 });
