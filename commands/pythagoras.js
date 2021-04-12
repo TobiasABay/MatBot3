@@ -20,7 +20,17 @@ module.exports = {
                 
             b=sqrt{c^2 - a^2}
         
-            Kilde: https://www.regneregler.dk/retvinklet-trekant-pythagoras`);
+            Kilde: https://www.regneregler.dk/retvinklet-trekant-pythagoras \n
+            
+            For at bruge pyth funktionen kan man skriver mulighederne:
+                "!pyth a c b"
+                "!pyth b c a"
+                "!pyth c a b"
+
+            Det første bogstav (!pyth "a" c b) skal betrages som den manglende værdi. Herefter bruger du de andre til at beregne den mangelden værdi
+                Eksempel: !pyth c 3 4
+                Resultat: Result srqt((3 * 3) - (4 * 4) = 5
+            `);
         }
 
         if (args[0] == 'a') {
