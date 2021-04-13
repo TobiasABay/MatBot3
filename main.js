@@ -6,7 +6,7 @@ const prefix = '!'; //prefix er med til så botton ved om beskden er til ham ell
 
 client.commands = new Discord.Collection();
 
-
+const token = require("./package.json").token
 const fs = require('fs'); //Henter filehandler module, så den kan finde rundt i systemets filer
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js')); //Bruger fs til at læse efter filer som ender med "js"
 for(const file of commandFiles){ //Bruger for loop til at loade filerne ind
@@ -96,5 +96,5 @@ client.on('message', message => {
 
 
 //G:\Visual Studio Code\Programmer\DiscordBot>node
-client.login('NjU0MjY0OTczMTk5MDE1OTQ3.XfDBvQ._DZoxmy6HQ2i6XugAon7KNriANc'); //Bottons hemmelige token, som gør man kan snakke sammen med Discord API
+client.login(token); //Bottons hemmelige token, som gør man kan snakke sammen med Discord API
 
