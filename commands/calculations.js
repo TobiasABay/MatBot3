@@ -9,7 +9,7 @@ module.exports = {
         }
 
         if (!args[0] || !args[1] || !args[2] ) {
-            return message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help1", ${message.author}!`);
+            return message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
         }
 
 
