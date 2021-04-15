@@ -3,3 +3,9 @@
 😀 In "main.js" you have put your own token in: Follow the steps on this link - https://www.writebots.com/discord-bot-token/ 😀 
 😁 The other files except "main.js" have to have their own tab for working 😁 
 🌟🌟🌟 Give a star for the project, if you liked it :) 🌟🌟🌟
+
+Description
+A javascript Discord-bot based on helping students with math and mathematical problems. 
+The bot allows the users to get helpt with basic levels of mathematical problems and equations.
+The reason javascript was chosen as the programming launguage was beacause it is user friendly, nad establishin a connection between Javascript and Discord is easy and fast. 
+The bot is still in development.
