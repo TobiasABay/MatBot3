@@ -2,11 +2,17 @@
 
 Description
 A javascript Discord-bot based on helping students with math and mathematical problems. 
-<<<<<<< HEAD
 The bot allows the users to get helpt with basic levels of mathematical problems and equations.
 Javascript was chosen as the programming launguage beacause it is user friendly, and establishing a connection between Javascript and Discord is easy and fast. 
-=======
-The bot allows the users to get help with basic levels of mathematical problems and equations.
-The reason javascript was chosen as the programming launguage was beacause it is user friendly, nad establishin a connection between Javascript and Discord is easy and fast. 
->>>>>>> 9688bf62305848cb5e559a70fa585367be3302d4
 The bot is still in development.
+
+Contact
+If you want to contact us you can do it though either GitHub or Twitter
+
+Tobias Bay 
+GitHub - SealBay
+Twitter - Tobiasabay
+
+Emil Eriksen
+GitHub - Kragborg
+Twitter - Emileriksen1
