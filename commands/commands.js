@@ -4,21 +4,28 @@ module.exports = {
     execute(message, args){
   
   // list of themes to pick from
-  var commands = [
-    '\n !ban [NAME] (Only works with MOD rule)',
+  var commands_common = [
+    '\n !ban',
     '\n !funfact',
     '\n !hej', 
     '\n !invite',
     '\n !invitebot',
-    '\n !kick (Only works with MOD rule)', 
+    '\n !kick', 
     '\n !ping', 
-    '\n !restart (Only works with MOD rule)'
+    '\n !restart'
 
   ];
   
+  var commands_math = [
+    '\n Math Functions:',
+    '\n !areal',
+    '\n !bmi',
+    '\n !calc',
+    '\n !pyth',
+  ];
 
   // announce the theme
-  message.channel.send('Commands:' + commands);
+  message.channel.send('Commands:' + commands_common + '\n' + commands_math);
 
     }
 }
