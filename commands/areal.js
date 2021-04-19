@@ -5,7 +5,7 @@ module.exports = {
         let result, result_floor;
 
         if (args[0] == 'help') {
-            return message.channel.send(`If you wanna get the area of a given figure, then there gotta be space between the numbers like this example "!areal triangle 3 5", "!areal square 5 5" eller "!areal pentagon 5" ${message.author}!`);
+            return message.channel.send(`If you wanna get the area of a given figure, then there gotta be space between the numbers like this example "!area triangle 3 5", "!area square 5 5" eller "!area pentagon 5" ${message.author}!`);
         }
 
         if (args[0] == 'triangle' || args[0] == 'Triangle') {
