@@ -36,7 +36,7 @@ client.on('message', message => {
     } 
 
     else if(command === 'hello'){
-        client.commands.get('hello').execute(message, args, user);
+        client.commands.get('hej').execute(message, args, user);
     }
 
     else if(command === 'help'){
@@ -97,6 +97,10 @@ client.on('message', message => {
 
     else if (command === 'bmi') {
         client.commands.get('bmi').execute(message, args, user);
+    }
+
+    else if (command === 'percentage') {
+        client.commands.get('percentage').execute(message, args, user);
     }
     
     
