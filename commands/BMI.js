@@ -5,11 +5,11 @@ module.exports = {
         let result, result_floor;
 
         if (args[0] == 'help') {
-            return message.channel.send(`For at beregne din bmi, så skal du oplyser to informationer, vægt og højde - Kommandoen skrives således "!bmi kg højde" fx "!bmi 68 172", ${message.author}!`);
+            return message.channel.send(`To calculate you BMI, then you gotta give the bot to variables, weight and height - You gotta write the folling command "!bmi kg height" example "!bmi 68 172", ${message.author}!`);
         }
 
         if (!args[0] || !args[1]) {
-            return message.channel.send(`Ukendt værdi, for mere hjælp skriv "!bmi help", ${message.author}!`);
+            return message.channel.send(`Uknown variable, for help write "!bmi help", ${message.author}!`);
         }
         else{
             if(args[1] > 3) {args[1] = args[1] / 100}

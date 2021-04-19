@@ -5,11 +5,11 @@ module.exports = {
         let result;
 
         if (args[0] == 'help') {
-            return message.channel.send(`For at beregne to værdier skal der være mellemrum mellem tallene således "2 + 2", "4 * 4" eller "100 / 100", ${message.author}!`);
+            return message.channel.send(`To calculate to variables there gotta be space between the numbers like this "2 + 2", "4 * 4" eller "100 / 100", ${message.author}!`);
         }
 
         if (!args[0] || !args[1] || !args[2] ) {
-            return message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
+            return message.channel.send(`Unknow varible, for help write "!calc help", ${message.author}!`);
         }
 
 
