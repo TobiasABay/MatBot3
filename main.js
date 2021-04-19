@@ -99,8 +99,8 @@ client.on('message', message => {
         client.commands.get('bmi').execute(message, args, user);
     }
 
-    else if (command === 'percentage') {
-        client.commands.get('percentage').execute(message, args, user);
+    else if (command === 'pct') {
+        client.commands.get('pct').execute(message, args, user);
     }
     
     
