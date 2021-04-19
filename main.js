@@ -90,6 +90,11 @@ client.on('message', message => {
     else if (command === 'pyth') {
         client.commands.get('pyth').execute(message, args, user);
     }
+
+    else if (command === 'bmi') {
+        client.commands.get('bmi').execute(message, args, user);
+    }
+    
     
 });
 
