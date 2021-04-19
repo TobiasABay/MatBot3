@@ -12,7 +12,7 @@ module.exports = {
             return message.channel.send(`Unknowns variable, for more help write "!pct help", ${user.username}!`);
         }
         else{
-            result = args[0] / args(1) * 100
+            result = args[0] / args[1] * 100
             result_floor = Math.floor(result);
         }
         message.channel.send(`\nResult: ${args[0]} / (${args[1]} * 100 = ${result_floor}`
