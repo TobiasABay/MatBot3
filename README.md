@@ -11,6 +11,7 @@ If you want to contact us you can do it though either GitHub or Twitter
 
 ## Tobias Bay 
 GitHub - SealBay
+<br/>
 Twitter - TobiasAbay
 
 ## Emil Eriksen
