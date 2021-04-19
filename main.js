@@ -31,7 +31,7 @@ client.on('message', message => {
     const command = args.shift().toLowerCase(); //Sætter kommandoen til små bogstaver
     const user = message.author; //Laver en konstant så man botton kan reply til brugeren
 
-    if(command === 'ping'){ //Hvis kommandoen er lige med "ping" så kør videre eller ignore
+    if(command === 'ping'){ //Hvis kommandoen er lig med "ping" så kør videre ellers ignore
         client.commands.get('ping').execute(message, args, user); //kør filen ping.js
     } 
 
@@ -87,8 +87,8 @@ client.on('message', message => {
         client.commands.get('calc').execute(message, args);
     }
 
-    else if (command === 'areal') {
-        client.commands.get('areal').execute(message, args, user);
+    else if (command === 'area') {
+        client.commands.get('area').execute(message, args, user);
     }
 
     else if (command === 'pyth') {
