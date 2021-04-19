@@ -13,7 +13,7 @@ git clone https://github.com/sealbay/MatBot3.git
 # Nødvendige moduler
 ```
 npm install discord.js
-
+npm install fs
 ```
 
 ```
