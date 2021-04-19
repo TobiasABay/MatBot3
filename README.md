@@ -12,13 +12,15 @@ If you want to contact us you can do it though either GitHub or Twitter
 ## Tobias Bay 
 GitHub - SealBay
 <br/>
-Twitter - TobiasAbay
+Twitter - TobiasABay
 
 ## Emil Eriksen
 GitHub - Kragborg
+<br/>
 Twitter - @Emileriksen1
 
 # Credits
 
 Tobias Agerskov Bay 
+<br/>
 Emil Kragborg Eriksen
