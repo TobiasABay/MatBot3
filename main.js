@@ -36,7 +36,7 @@ client.on('message', message => {
     } 
 
     else if(command === 'hello'){
-        client.commands.get('hej').execute(message, args, user);
+        client.commands.get('hello').execute(message, args, user);
     }
 
     else if(command === 'help'){
