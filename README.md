@@ -8,7 +8,6 @@ The bot is still in development.
 
 ```
 git clone https://github.com/sealbay/MatBot3.git
-
 ```
 # Contact
 If you want to contact us you can do it though either GitHub or Twitter
