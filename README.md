@@ -22,9 +22,8 @@ npm install
 ## Use
 | Command | Description |
 | --- | --- |
-| `p!help` | Shows help table |
-| `p!menu` | Shows menu |
-| `p!example` | Example text |
+| `!help` | Shows help table |
+| `!commands` | Shows menu |
 
 # Contact
 If you want to contact us you can do it though either GitHub or Twitter
