@@ -15,6 +15,7 @@ module.exports = {
             result = args[0] / args[1] * 100
             result_floor = Math.floor(result);
         }
-        message.channel.send(`\nResult: ${args[0]} / ${args[1]} * 100 = ${result_floor} %`
-    )}
+        message.channel.send(`\nResult: ${args[0]} / ${args[1]} * 100 = ${result_floor} %`);
+        message.channel.send('Kilde: https://www.calculator.net/percent-calculator.html');
+    }
 }
