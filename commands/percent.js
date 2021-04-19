@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'percentage',
+    name: 'p',
     description: "this is a ping command! ",
     execute(message, args, user){
         //${user.username}
@@ -9,7 +9,7 @@ module.exports = {
         }
 
         if (!args[0] || !args[1]) {
-            return message.channel.send(`Ukendt værdi, for mere hjælp skriv "!bmi help", ${user.username}!`);
+            return message.channel.send(`Unknowns variable, for more help write "!p help", ${user.username}!`);
         }
         else{
             result = args[0] / args(1) * 100
