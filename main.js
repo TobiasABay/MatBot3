@@ -35,8 +35,8 @@ client.on('message', message => {
         client.commands.get('ping').execute(message, args, user); //kør filen ping.js
     } 
 
-    else if(command === 'hej'){
-        client.commands.get('hej').execute(message, args, user);
+    else if(command === 'hello'){
+        client.commands.get('hello').execute(message, args, user);
     }
 
     else if(command === 'help'){
