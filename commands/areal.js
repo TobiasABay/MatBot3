@@ -1,32 +1,32 @@
 module.exports = {
-    name: 'areal',
+    name: 'area',
     description: "this is a ping command! ",
     execute(message, args, user){
         let result, result_floor;
 
         if (args[0] == 'help') {
-            return message.channel.send(`For at beregne et areal af given figur, så skal der være mellemrum mellem tallene således "!areal trekant 3 5", "!areal firkant 5 5" eller "!areal femkant 5" ${message.author}!`);
+            return message.channel.send(`If you wanna get the area of a given figure, then there gotta be space between the numbers like this example "!areal triangle 3 5", "!areal square 5 5" eller "!areal pentagon 5" ${message.author}!`);
         }
 
-        if (args[0] == 'trekant' || args[0] == 'Trekant') {
+        if (args[0] == 'triangle' || args[0] == 'Triangle') {
             if (!args[0] || !args[1] || !args[2] ) {
-                message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
+                message.channel.send(`Unknowns variable, for more help write "!area help", ${message.author}!`);
            } 
                 result = (+args[1] + +args[2]) / 2;
                 message.channel.send(`\n Result: (${args[1]} + ${args[2]}) / 2 = ${result}`);
         }
 
-        else if (args[0] == 'firkant' || args[0] == 'Firkant') {
+        else if (args[0] == 'Square' || args[0] == 'Square') {
             if (!args[0] || !args[1] || !args[2] ) {
-                message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
+                message.channel.send(`Unknowns variable, for more help write "!area help", ${message.author}!`);
            } 
             result = +args[1] * +args[2];
             message.channel.send(`\n Result: ${args[1]} * ${args[2]} = ${result}`);
        } 
 
-        else if (args[0] == 'femkant' || args[0] == 'Femkant') {
+        else if (args[0] == 'Pentagon' || args[0] == 'Pentagon') {
             if (!args[0] || !args[1]) {
-                message.channel.send(`Ukendt værdi, for mere hjælp skriv "!areal help", ${message.author}!`);
+                message.channel.send(`Unknowns variable, for more help write "!area help", ${message.author}!`);
            } 
             result = (Math.sqrt(25+10*Math.sqrt(5)) / 4) * +args[1];
             result_floor = Math.floor(result);
