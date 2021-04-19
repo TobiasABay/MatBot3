@@ -7,7 +7,7 @@ module.exports = {
   var commands_common = [
     '\n !ban',
     '\n !funfact',
-    '\n !hej', 
+    '\n !hello', 
     '\n !invite',
     '\n !invitebot',
     '\n !kick', 
@@ -18,7 +18,7 @@ module.exports = {
   
   var commands_math = [
     '\n Math Functions:',
-    '\n !areal',
+    '\n !area',
     '\n !bmi',
     '\n !calc',
     '\n !pyth',
