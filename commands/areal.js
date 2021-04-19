@@ -33,5 +33,4 @@ module.exports = {
             message.channel.send(`\n Result: (sqrt(25+10*sqrt(5)) / 4) * ${args[1]} = ${result_floor}`);
         }
     }
-    //DIN DUMME NARFISSE
 }
