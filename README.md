@@ -22,8 +22,8 @@ npm install
 ## Use
 | Command | Description |
 | --- | --- |
-| `!help` | introduction |
-| `!commands` | displays the command list |
+| `!help` | Introduction |
+| `!commands` | Displays the command list |
 
 # Contact
 If you want to contact us you can do it though either GitHub or Twitter
