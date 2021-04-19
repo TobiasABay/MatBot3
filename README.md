@@ -10,12 +10,12 @@ The bot is still in development.
 git clone https://github.com/sealbay/MatBot3.git
 ```
 
-# Nødvendige moduler
+# Necessary Modules
 ```
 npm install discord.js
 npm install fs
 ```
-
+After cloning run:
 ```
 npm install
 ```
