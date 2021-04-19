@@ -59,5 +59,6 @@ module.exports = {
             result_floor = Math.floor(result);
             message.channel.send(`Result: srqt((${args[1]} * ${args[1]}) - (${args[2]} * ${args[2]}) = ${ result_floor} ${message.author}!`);
         }        
+        message.channel.send('Kilde: https://www.calculator.net/pythagorean-theorem-calculator.html');
     }
 }

@@ -22,5 +22,6 @@ module.exports = {
                 "./BMI.png"
             ]
         });
+        message.channel.send('Kilde: https://www.calculator.net/bmi-calculator.html');
     }
 }
