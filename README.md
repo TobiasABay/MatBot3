@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#description">Description</a> •
-  <a href="#NecessaryModules">Installation</a> •
+  <a href="#Modules">Modules</a> •
   <a href="#use">Use</a> •
   <a href="#contact">Contact</a> •
   <a href="#credits">Credits</a>
@@ -21,7 +21,7 @@ or add it on:
 ```
 https://discord.com/oauth2/authorize?client_id=654264973199015947&scope=bot&permissions=2147483647
 ```
-# Necessary Modules
+# Modules
 ```
 npm install discord.js
 npm install fs
