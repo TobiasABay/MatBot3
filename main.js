@@ -99,6 +99,7 @@ client.on('message', message => {
     else if (command === 'pct') {
         client.commands.get('pct').execute(message, args, user);
     }
+    
     else{
         message.channel.send('Invalid command - Use the command "!commands" for more information'); 
     }
