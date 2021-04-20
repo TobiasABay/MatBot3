@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#description">Description</a> •
-  <a href="#Necessary Modules">Installation</a> •
+  <a href="#NecessaryModules">Installation</a> •
   <a href="#use">Use</a> •
   <a href="#contact">Contact</a> •
   <a href="#credits">Credits</a>
