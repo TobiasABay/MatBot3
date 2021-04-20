@@ -13,14 +13,12 @@ for(const file of commandFiles){ //Bruger for loop til at loade filerne ind
     client.commands.set(command.name, command); 
 }
 
-client.on('ready', () => {
+client.on('ready', function() {
     console.info(`Logged in as ${bot.user.tag}!`);
-  });
-
-client.on('guildCreate', guild => {
     const channel = guild.channels.cache.find(channel => channel.type === 'text' && channel.permissionsFor(guild.me).has('SEND_MESSAGES'))
     channel.send("TAk for at vælge mig! \n Hvis du ønsker at vide mere om, hvad jeg kan gøre, så skriv følgende command: \n !help \n \n God fornøjelse")
-})
+  });
+
 
 client.on('message', message => {
 
