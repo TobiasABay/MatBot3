@@ -13,10 +13,9 @@ for(const file of commandFiles){ //Bruger for loop til at loade filerne ind
     client.commands.set(command.name, command); 
 }
 
-client.once('ready', () => { //Tænder for botton
-    console.log(`Logged in as ${client.user.tag}!`); //Printer det i konsollen / CMD
-    console.log("Hey Guys! I'm online!"); //Printer det i konsollen / CMD
-});
+client.on('ready', () => {
+    console.info(`Logged in as ${bot.user.tag}!`);
+  });
 
 client.on('guildCreate', guild => {
     const channel = guild.channels.cache.find(channel => channel.type === 'text' && channel.permissionsFor(guild.me).has('SEND_MESSAGES'))
