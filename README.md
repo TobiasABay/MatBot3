@@ -1,5 +1,14 @@
 🤖Discord-Bot---MatBot🤖 
 
+<p align="center">
+  <a href="#description">Description</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#use">Use</a> •
+  <a href="#to-do-list">To-Do-List</a> •
+  <a href="#contact">Contact</a> •
+  <a href="#credits">Credits</a>
+</p>
+
 # Description
 A javascript Discord-bot based on helping students with math and mathematical problems. 
 The bot allows the users to get helpt with basic levels of mathematical problems and equations.
