@@ -16,7 +16,7 @@ for(const file of commandFiles){ //Bruger for loop til at loade filerne ind
 client.on('ready', function (){
     console.log(`Logged in as ${bot.user.tag}!`);
     const channel = guild.channels.cache.find(channel => channel.type === 'text' && channel.permissionsFor(guild.me).has('SEND_MESSAGES'))
-    channel.send("TAk for at vælge mig! \n Hvis du ønsker at vide mere om, hvad jeg kan gøre, så skriv følgende command: \n !help \n \n God fornøjelse")
+    channel.send("TAk for at vælge mig! \n Hvis du ønsker at vide mere om, hvad jeg kan gøre, så skriv følgende command: \n !help \n \n God fornøjelse");
     client.user.setActivity("!help");
   });
 
