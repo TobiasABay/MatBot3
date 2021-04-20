@@ -1,4 +1,6 @@
-🤖Discord-Bot---MatBot🤖 
+🤖Discord-Bot---MatBot🤖 ¨
+
+![alt text](https://github.com/sealbay/MatBot3/blob/main/MathBot_DiscordBot.jpg?raw=true)
 
 <p align="center">
   <a href="#description">Description</a> •
