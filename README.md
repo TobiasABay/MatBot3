@@ -9,7 +9,10 @@ The bot is still in development.
 ```
 git clone https://github.com/sealbay/MatBot3.git
 ```
-
+or add it on:
+```
+https://discord.com/oauth2/authorize?client_id=654264973199015947&scope=bot&permissions=2147483647
+```
 # Necessary Modules
 ```
 npm install discord.js
