@@ -15,6 +15,8 @@ for(const file of commandFiles){ //Bruger for loop til at loade filerne ind
 
 client.on('ready', function (){
     console.log(`Logged in as ${bot.user.tag}!`);
+    const channel = guild.channels.cache.find(channel => channel.type === 'text')
+    channel.send("TAk for at vælge mig! \n Hvis du ønsker at vide mere om, hvad jeg kan gøre, så skriv følgende command: \n !help \n \n God fornøjelse")
     
 });
 
@@ -29,9 +31,6 @@ client.on('message', message => {
 
     client.user.setActivity("For help type: !help");
 
-    const channel = guild.channels.cache.find(channel => channel.type === 'text')
-    channel.send("TAk for at vælge mig! \n Hvis du ønsker at vide mere om, hvad jeg kan gøre, så skriv følgende command: \n !help \n \n God fornøjelse")
-    
     if(command === 'ping'){ //Hvis kommandoen er lig med "ping" så kør videre ellers ignore
         client.commands.get('ping').execute(message, args, user); //kør filen ping.js
     } 
