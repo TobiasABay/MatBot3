@@ -48,9 +48,9 @@ client.on('message', message => {
         client.commands.get('invite-bot').execute(message, args);
     }
 
-    else if (command === 'restart') {
-        client.commands.get('restart').execute(message, args);
-    }
+    //else if (command === 'restart') {
+    //    client.commands.get('restart').execute(message, args);
+    //}
 
     else if (command === 'kick') {
         client.commands.get('kick').execute(message, args);
@@ -99,7 +99,7 @@ client.on('message', message => {
     else if (command === 'pct') {
         client.commands.get('pct').execute(message, args, user);
     }
-    
+
     else{
         message.channel.send('Invalid command - Use the command "!commands" for more information'); 
     }
