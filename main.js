@@ -105,5 +105,5 @@ client.on('message', message => {
 
 
 //G:\Visual Studio Code\Programmer\DiscordBot>node
-client.login('process.env.token'); //Bottons hemmelige token, som gør man kan snakke sammen med Discord API
+client.login('process.env.BOT_TOKEN'); //Bottons hemmelige token, som gør man kan snakke sammen med Discord API
 
