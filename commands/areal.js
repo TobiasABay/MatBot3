@@ -16,7 +16,7 @@ module.exports = {
                 message.channel.send(`\n Result: (${args[1]} + ${args[2]}) / 2 = ${result}`);
         }
 
-        else if (args[0] == 'Square' || args[0] == 'Square') {
+        else if (args[0] == 'square' || args[0] == 'Square') {
             if (!args[0] || !args[1] || !args[2] ) {
                 message.channel.send(`Unknowns variable, for more help write "!area help", ${message.author}!`);
            } 
@@ -24,7 +24,7 @@ module.exports = {
             message.channel.send(`\n Result: ${args[1]} * ${args[2]} = ${result}`);
        } 
 
-        else if (args[0] == 'Pentagon' || args[0] == 'Pentagon') {
+        else if (args[0] == 'pentagon' || args[0] == 'Pentagon') {
             if (!args[0] || !args[1]) {
                 message.channel.send(`Unknowns variable, for more help write "!area help", ${message.author}!`);
            } 
