@@ -56,7 +56,7 @@ If you want to contact us you can do it though either GitHub or Twitter
 GitHub - SealBay
 <br/>
 Twitter - TobiasABay
-![alt text](https://github.com/sealbay/MatBot3/blob/main/Profilbillede%202019.jpg?raw=true){width=50%}
+![alt text](https://github.com/sealbay/MatBot3/blob/main/Profilbillede%202019.jpg?raw=true){: width=150 height=100}
 
 ## Emil Eriksen
 
