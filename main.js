@@ -21,7 +21,7 @@ client.on('ready', function (){
 client.on("guildCreate", guild => {
     const channels = guild.channels.cache.filter(channel => channel.type == "text");
 
-    channel.send("THANK YOU for choosing me! \n  If you want to know more about what I can do, type the following command:\n !help\n \n God fornøjelse")
+    channels.send("THANK YOU for choosing me! \n  If you want to know more about what I can do, type the following command:\n !help\n \n God fornøjelse")
     
 });
 
