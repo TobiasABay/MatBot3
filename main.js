@@ -15,15 +15,14 @@ for(const file of commandFiles){ //Bruger for loop til at loade filerne ind
 
 client.on('ready', function (){
     console.log(`Logged in as ${bot.user.tag}!`);
+    const channel = guild.channels.cache.find(channel => channel.type === 'text');
+    channel.send("TAk for at vælge mig! \n Hvis du ønsker at vide mere om, hvad jeg kan gøre, så skriv følgende command: \n !help \n \n God fornøjelse")
     
 });
 
 
 client.on('message', message => {
-
-    const channel = guild.channels.cache.find(channel => channel.type === 'text');
-    channel.send("TAk for at vælge mig! \n Hvis du ønsker at vide mere om, hvad jeg kan gøre, så skriv følgende command: \n !help \n \n God fornøjelse");
-
+    
     if(!message.content.startsWith(prefix) || message.author.bot) return; //Hvis beskeden fra en bruger starter med prefix eller en forfatter er en bot, så kør videre eller ignore
 
     const args = message.content.slice(prefix.length).split(/ +/); //Laver en args, så man kan skrive flere ting fx "!wiki school"
