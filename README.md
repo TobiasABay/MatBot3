@@ -53,7 +53,7 @@ If you want to contact us you can do it though either GitHub or Twitter
 
 ## Tobias Bay
 
-![alt text](https://github.com/sealbay/MatBot3/blob/main/Profilbillede_SCALED2.jpeg)
+![alt text](https://github.com/sealbay/MatBot3/blob/main/Authors/Tobias.jpeg)
 
 GitHub - SealBay
 <br/>
@@ -61,7 +61,7 @@ Twitter - TobiasABay
 
 ## Emil Eriksen
 
-![alt text](https://github.com/sealbay/MatBot3/blob/main/Kragborg_scaled.jpeg)
+![alt text](https://github.com/sealbay/MatBot3/blob/main/Authors/Emil.jpeg)
 
 GitHub - Kragborg
 <br/>
