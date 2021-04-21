@@ -56,8 +56,8 @@ If you want to contact us you can do it though either GitHub or Twitter
 ![alt text](https://github.com/sealbay/MatBot3/blob/main/Profilbillede_SCALED2.jpeg)
 
 GitHub - SealBay
-Twitter - TobiasABay
 <br/>
+Twitter - TobiasABay
 
 ## Emil Eriksen
 
