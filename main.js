@@ -16,14 +16,14 @@ for(const file of commandFiles){ //Bruger for loop til at loade filerne ind
 client.on('ready', function (){
     console.log(`Logged in as ${bot.user.tag}!`);
     const channel = guild.channels.cache.find(channel => channel.type === 'text');
-    channel.send("TAk for at vælge mig! \n Hvis du ønsker at vide mere om, hvad jeg kan gøre, så skriv følgende command: \n !help \n \n God fornøjelse")
+    channel.send("THANK YOU for choosing me! \n  If you want to know more about what I can do, type the following command:\n !help\n \n God fornøjelse")
     
 });
 
 client.on("guildCreate", guild => {
     const channels = guild.channels.cache.filter(channel => channel.type == "text");
 
-    channels.first().send("TAk for at vælge mig! \n Hvis du ønsker at vide mere om, hvad jeg kan gøre, så skriv følgende command: \n !help \n \n God fornøjelse").catch(e => console.log(e));
+    channels.first().send("Tak for at vælge mig! \n Hvis du ønsker at vide mere om, hvad jeg kan gøre, så skriv følgende command: \n !help \n \n God fornøjelse").catch(e => console.log(e));
 });
 
 client.on('message', message => {
