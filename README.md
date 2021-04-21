@@ -61,6 +61,8 @@ Twitter - TobiasABay
 
 ## Emil Eriksen
 
+![alt text](https://github.com/sealbay/MatBot3/blob/main/Kragborg_scaled.jpeg)
+
 GitHub - Kragborg
 <br/>
 Twitter - @Emileriksen1
