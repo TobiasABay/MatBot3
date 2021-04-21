@@ -20,6 +20,11 @@ client.on('ready', function (){
     
 });
 
+client.on("guildCreate", guild => {
+    const channels = guild.channels.cache.filter(channel => channel.type == "text");
+
+    channels.first().send("Thank you for inviting me!").catch(e => console.log(e));
+});
 
 client.on('message', message => {
     
