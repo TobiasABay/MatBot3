@@ -15,13 +15,12 @@ for(const file of commandFiles){ //Bruger for loop til at loade filerne ind
 
 client.on('ready', function (){
     console.log(`Logged in as ${bot.user.tag}!`);
-    
 });
 
 client.on("guildCreate", guild => {
     const channels = guild.channels.cache.filter(channel => channel.type == "text");
 
-    channels.send("THANK YOU for choosing me! \n  If you want to know more about what I can do, type the following command:\n !help\n \n God fornøjelse")
+    channels.send("THANK YOU for choosing me! \n  If you want to know more about what I can do, type the following command:\n !help\n \n God fornøjelse");
     
 });
 
