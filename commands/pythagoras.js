@@ -4,6 +4,10 @@ module.exports = {
     execute(message, args, user){
         let result, result_floor;
         
+        if (!args[0]) {
+            return message.channel.send(`type: "!pyth help" for more help`);
+        }
+
         if (args[0] == 'help') {
             return message.channel.send(`
             Den pythagoræiske læresætning er:

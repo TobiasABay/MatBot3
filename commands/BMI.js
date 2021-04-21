@@ -4,6 +4,10 @@ module.exports = {
     execute(message, args, command){
         let result, result_floor;
 
+        if (!args[0]) {
+            return message.channel.send(`type: "!bmi help" for more help`);
+        }
+
         if (args[0] == 'help') {
             return message.channel.send(`To calculate you BMI, then you gotta give the bot to variables, weight and height - You gotta write the folling command "!bmi kg height" example "!bmi 68 172", ${message.author}!`);
         }
