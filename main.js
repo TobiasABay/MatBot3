@@ -37,7 +37,7 @@ client.on('message', message => {
     client.user.setActivity("For help type: !help");
 
     if(command === 'ping'){ //Hvis kommandoen er lig med "ping" så kør videre ellers ignore
-        client.commands.get('ping').execute(message, args, user); //kør filen ping.js
+        client.commands.get('ping').execute(message, args, user,command); //kør filen ping.js
     } 
 
     else if(command === 'hello'){
@@ -55,10 +55,6 @@ client.on('message', message => {
     else if(command === 'invitebot'){
         client.commands.get('invite-bot').execute(message, args);
     }
-
-    //else if (command === 'restart') {
-    //    client.commands.get('restart').execute(message, args);
-    //}
 
     else if (command === 'kick') {
         client.commands.get('kick').execute(message, args);
