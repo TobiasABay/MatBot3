@@ -4,7 +4,7 @@ module.exports = {
     execute(message, args, user, command){
         let result, result_floor;
 
-        if (args[0] == 'help' || command == "area") {
+        if (args[0] == 'help' || command === "area" || message == "area") {
             return message.channel.send(`If you wanna get the area of a given figure, then there gotta be space between the numbers like this example "!area triangle 3 5", "!area square 5 5" eller "!area pentagon 5" ${message.author}!`);
         }
 
