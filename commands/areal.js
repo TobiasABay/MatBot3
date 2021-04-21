@@ -8,7 +8,7 @@ module.exports = {
             return message.channel.send(`type: "!area help" for more help`);
         }
 
-        if (args[0] == 'help' ||) {
+        if (args[0] == 'help') {
             return message.channel.send(`If you wanna get the area of a given figure, then there gotta be space between the numbers like this example "!area triangle 3 5", "!area square 5 5" eller "!area pentagon 5" ${message.author}!`);
         }
         
