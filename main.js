@@ -23,7 +23,7 @@ client.on('ready', function (){
 client.on("guildCreate", guild => {
     const channels = guild.channels.cache.filter(channel => channel.type == "text");
 
-    channels.first().send("THANK YOU for choosing me! \n  If you want to know more about what I can do, type the following command:\n !help\n \n Enjoy Much!").catch(e => console.log(e));
+    channels.first().send("THANK YOU for choosing me! \n If you want to know more about what I can do, type the following command:\n !help\n \n Enjoy Much!").catch(e => console.log(e));
 });
 
 client.on('message', message => {
