@@ -9,7 +9,7 @@ module.exports = {
         }
 
         if (args[0] == 'help') {
-            return message.channel.send(`To calculate you BMI, then you gotta give the bot to variables, weight and height - You gotta write the folling command "!bmi kg height" example "!bmi 68 172", ${message.author}!`);
+            return message.channel.send(`To calculate you BMI, then you gotta give the bot to variables, weight and height - You gotta write the following command "!bmi kg height" example "!bmi 68 172", ${message.author}!`);
         }
 
         if (!args[0] || !args[1]) {
