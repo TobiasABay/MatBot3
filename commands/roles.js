@@ -20,7 +20,7 @@ module.exports = {
                             + `${yellowTeamEmoji} for MatA Team\n`
                             + `${greenTeamEmoji} for MatB Team`);
 
-                    let messageEmbed = message.channel.send(embed);        
+                    let messageEmbed = await message.channel.send(embed);        
                     messageEmbed.react(yellowTeamEmoji);
                     messageEmbed.react(greenTeamEmoji);
              
