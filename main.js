@@ -1,6 +1,6 @@
 const Discord = require('discord.js'); //Henter discord module, så botton kan køre
 
-const client = new Discord.Client(); // kalder botten for client (nemmest at huske)
+const client = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION" ]}); // kalder botten for client (nemmest at huske)
 
 const prefix = '!'; //prefix er med til så botton ved om beskden er til ham eller bare chatten
 
