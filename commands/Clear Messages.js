@@ -1,6 +1,6 @@
 module.exports = {
     name: 'clear',
-    description: 'stop the bot and leave the channel',
+    description: 'The bot deletes the given amount of messages',
     async execute(message, args) {
         if(!args[0]) return message.reply("Be kind and write the numbers of messages you wanna delete!");
         else if(isNaN(args[0])) return message.reply("please write a number!");

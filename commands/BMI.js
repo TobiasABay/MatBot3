@@ -1,6 +1,6 @@
 module.exports = {
     name: 'bmi',
-    description: "this is a ping command! ",
+    description: "this command can calculate a persons body mass index or BMI! ",
     execute(message, args, command){
         let result, result_floor;
 

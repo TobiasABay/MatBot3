@@ -1,6 +1,6 @@
 module.exports = {
     name: 'calc',
-    description: "this is a ping command! ",
+    description: "this command can calculate different equations! ",
     execute(message, args, command){
         let result;
 

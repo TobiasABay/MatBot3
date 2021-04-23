@@ -1,6 +1,6 @@
 module.exports = {
     name: 'commands',
-    description: "this is a ping command! ",
+    description: "this is a list that shows all the commands that the bot have! ",
     execute(message, args){
   
   // list of themes to pick from

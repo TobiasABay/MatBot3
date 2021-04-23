@@ -1,6 +1,6 @@
 module.exports = {
     name: 'area',
-    description: "this is a ping command! ",
+    description: "This command can get the area of a given figure! ",
     execute(message, args){
         let result, result_floor;
 

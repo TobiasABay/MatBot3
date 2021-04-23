@@ -1,6 +1,6 @@
 module.exports = {
     name: 'funfact',
-    description: "this is a ping command! ",
+    description: "this command gives a funfact! ",
     execute(message, args){
   
   // list of themes to pick from

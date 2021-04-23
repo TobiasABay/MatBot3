@@ -1,6 +1,6 @@
 module.exports = {
     name: 'pyth',
-    description: "Beregner pythagoras ved hjælp af input fra brugeren",
+    description: " This is a command that solves pythagoras with help from inputs from the user!",
     execute(message, args, user){
         let result, result_floor;
         

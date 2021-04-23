@@ -1,6 +1,6 @@
 module.exports = {
     name: 'pct',
-    description: "this is a ping command! ",
+    description: "this is a command that can calculate with perecntage ",
     execute(message, args, user){
         //${user.username}
 
