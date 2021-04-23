@@ -105,7 +105,7 @@ client.on('message', message => {
     }
 
     else if (command === 'roles') {
-        client.commands.get('roles').execute(message, args, user, Discord, client);
+        client.commands.get('roles').execute(message, Discord, client);
     }
 
     else{
