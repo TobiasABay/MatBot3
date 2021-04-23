@@ -2,16 +2,13 @@ module.exports = {
     name: 'roles',
     description: "this is a ping command! ",
     async execute(message, args, user, Discord, client){
-            //message.react('🟢');
-            //message.react('🟡');
-        	//message.react('🔴');
-        
                     const channel = '654263697656512512';
                     const MatA = message.guild.roles.cache.find(role => role.name === "MatA");
                     const MatB = message.guild.roles.cache.find(role => role.name === "MatB");
-             
-                    const yellowTeamEmoji = '🟡';
+
                     const greenTeamEmoji = '🟢';
+                    const yellowTeamEmoji = '🟡';
+                    const redTeamEmoji = '🔴';
              
                     let embed = new Discord.MessageEmbed()
                         .setColor('#e42643')
@@ -19,11 +16,13 @@ module.exports = {
                         .setDescription('Choosing a team will allow you to interact with your teammates!\n\n'
                             + `${yellowTeamEmoji} for MatA Team\n`
                             + `${greenTeamEmoji} for MatB Team`);
+                            + `${redTeamEmoji} for MatB Team`);
 
                     let messageEmbed = await message.channel.send(embed);        
                     messageEmbed.react(yellowTeamEmoji);
                     messageEmbed.react(greenTeamEmoji);
-             
+                    messageEmbed.react(redTeamEmoji);
+
                     client.on('messageReactionAdd', async (reaction, user) => {
                         if (reaction.message.partial) await reaction.message.fetch();
                         if (reaction.partial) await reaction.fetch();
@@ -36,6 +35,9 @@ module.exports = {
                             }
                             if (reaction.emoji.name === greenTeamEmoji) {
                                 await reaction.message.guild.members.cache.get(user.id).roles.add(blueTeamRole);
+                            }
+                            if (reaction.emoji.name === redTeamEmoji) {
+                                await reaction.message.guild.members.cache.get(user.id).roles.add(redTeamEmoji);
                             }
                         } else {
                             return;
