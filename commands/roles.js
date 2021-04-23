@@ -2,7 +2,7 @@ module.exports = {
     name: 'roles',
     description: "this is a ping command! ",
     async execute(message, Discord, client){
-        const channel = '654263697656512512';
+        const channel = '835065318010912829';
 
         const MatA = message.guild.roles.cache.find(role => role.name === "MatA");
         const MatB = message.guild.roles.cache.find(role => role.name === "MatB");
