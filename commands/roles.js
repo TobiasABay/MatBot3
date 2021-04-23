@@ -14,13 +14,13 @@ module.exports = {
                         .setColor('#e42643')
                         .setTitle('Choose a team to play on!')
                         .setDescription('Choosing a team will allow you to interact with your teammates!\n\n'
-                            + `${yellowTeamEmoji} for MatA Team\n`
                             + `${greenTeamEmoji} for MatB Team\n`
+                            + `${yellowTeamEmoji} for MatA Team\n`
                             + `${redTeamEmoji} for MatB Team`);
 
-                    let messageEmbed = await message.channel.send(embed);        
+                    let messageEmbed = await message.channel.send(embed);  
+                    messageEmbed.react(greenTeamEmoji);      
                     messageEmbed.react(yellowTeamEmoji);
-                    messageEmbed.react(greenTeamEmoji);
                     messageEmbed.react(redTeamEmoji);
 
                     client.on('messageReactionAdd', async (reaction, user) => {
