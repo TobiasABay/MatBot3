@@ -5,6 +5,7 @@ module.exports = {
   
   // list of themes to pick from
   var commands_common = [
+    '\n !help',
     '\n !ban',
     '\n !funfact',
     '\n !hello', 
@@ -12,7 +13,8 @@ module.exports = {
     '\n !invitebot',
     '\n !kick', 
     '\n !ping', 
-    '\n !restart'
+    '\n !restart',
+    '\n !roles',
 
   ];
   
