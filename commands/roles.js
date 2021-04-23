@@ -14,8 +14,8 @@ module.exports = {
              
         let embed = new Discord.MessageEmbed()
             .setColor('#e42643')
-            .setTitle('Choose a team to play on!')
-            .setDescription('Choosing a team will allow you to interact with your teammates!\n\n'
+            .setTitle('Choose a team')
+            .setDescription('Choosing a team will allow you to interact with other students on the same level as you!\n\n'
                 + `${greenTeamEmoji} for MatC Team\n`
                 + `${yellowTeamEmoji} for MatB Team\n`
                 + `${redTeamEmoji} for MatA Team`);
