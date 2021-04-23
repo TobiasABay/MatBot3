@@ -15,7 +15,7 @@ module.exports = {
                         .setTitle('Choose a team to play on!')
                         .setDescription('Choosing a team will allow you to interact with your teammates!\n\n'
                             + `${yellowTeamEmoji} for MatA Team\n`
-                            + `${greenTeamEmoji} for MatB Team`);
+                            + `${greenTeamEmoji} for MatB Team\n`
                             + `${redTeamEmoji} for MatB Team`);
 
                     let messageEmbed = await message.channel.send(embed);        
