@@ -22,6 +22,7 @@ module.exports = {
     '\n !bmi',
     '\n !calc',
     '\n !pyth',
+    '\n !pct',
   ];
 
   // announce the theme
