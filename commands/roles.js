@@ -19,9 +19,10 @@ module.exports = {
                         .setDescription('Choosing a team will allow you to interact with your teammates!\n\n'
                             + `${yellowTeamEmoji} for MatA Team\n`
                             + `${greenTeamEmoji} for MatB Team`);
-             
-                    message.react(yellowTeamEmoji);
-                    message.react(greenTeamEmoji);
+
+                    let messageEmbed = message.channel.send(embed);        
+                    messageEmbed.react(yellowTeamEmoji);
+                    messageEmbed.react(greenTeamEmoji);
              
                     client.on('messageReactionAdd', async (reaction, user) => {
                         if (reaction.message.partial) await reaction.message.fetch();
