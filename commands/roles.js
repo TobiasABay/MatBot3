@@ -20,9 +20,8 @@ module.exports = {
                             + `${yellowTeamEmoji} for MatA Team\n`
                             + `${greenTeamEmoji} for MatB Team`);
              
-                    let messageEmbed = await message.channel.send(embed);
-                    messageEmbed.react(yellowTeamEmoji);
-                    messageEmbed.react(greenTeamEmoji);
+                    message.react(yellowTeamEmoji);
+                    message.react(greenTeamEmoji);
              
                     client.on('messageReactionAdd', async (reaction, user) => {
                         if (reaction.message.partial) await reaction.message.fetch();
