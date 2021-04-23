@@ -1,7 +1,7 @@
 module.exports = {
     name: 'roles',
     description: "this is a ping command! ",
-    execute(message, args, user){
+    execute(message, args, user, Discord, client){
             //message.react('🟢');
             //message.react('🟡');
         	//message.react('🔴');
