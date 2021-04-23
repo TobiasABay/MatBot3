@@ -5,6 +5,7 @@ module.exports = {
                     const channel = '654263697656512512';
                     const MatA = message.guild.roles.cache.find(role => role.name === "MatA");
                     const MatB = message.guild.roles.cache.find(role => role.name === "MatB");
+                    const MatC = message.guild.roles.cache.find(role => role.name === "MatC");
 
                     const greenTeamEmoji = '🟢';
                     const yellowTeamEmoji = '🟡';
@@ -34,7 +35,7 @@ module.exports = {
                                 await reaction.message.guild.members.cache.get(user.id).roles.add(yellowTeamRole);
                             }
                             if (reaction.emoji.name === greenTeamEmoji) {
-                                await reaction.message.guild.members.cache.get(user.id).roles.add(blueTeamRole);
+                                await reaction.message.guild.members.cache.get(user.id).roles.add(greenTeamEmoji);
                             }
                             if (reaction.emoji.name === redTeamEmoji) {
                                 await reaction.message.guild.members.cache.get(user.id).roles.add(redTeamEmoji);
