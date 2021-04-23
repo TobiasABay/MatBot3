@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'hello',
+    name: 'roles',
     description: "this is a ping command! ",
     execute(message, args, user){
         if(message.content === 'rules'){

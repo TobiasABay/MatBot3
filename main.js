@@ -104,9 +104,14 @@ client.on('message', message => {
         client.commands.get('pct').execute(message, args, user);
     }
 
+    else if (command === 'roles') {
+        client.commands.get('roles').execute(message, args, user);
+    }
+
     else{
         message.channel.send('Invalid command - Use the command "!commands" for more information'); 
     }
+    
     
 });
 
