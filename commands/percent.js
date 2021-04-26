@@ -2,7 +2,6 @@ module.exports = {
     name: 'pct',
     description: "this is a command that can calculate with perecntage ",
     execute(message, args, user){
-        //${user.username}
 
         if (!args[0]) {
             return message.channel.send(`type: "!pct help" for more help`);
